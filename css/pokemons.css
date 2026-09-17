@@ -1,6 +1,4 @@
-body {
-	margin:0;
-    .listagem {
+.listagem {
     padding: 40px 0;
     background-color: #fff5e7;
 
@@ -10,87 +8,7 @@ body {
 
     background-size: 15px 15px;
 }
-}
-.topo {
-	width:1366px;
-	height:6px;
-	background-image:url("images/topo.svg");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.embaixo {
-	width:1366px;
-	height:4px;
-	background-image:url("images/embaixo.svg");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.BarraSup {
-	height:100px;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-	background-image:url("images/BarraSup.svg");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.espaco {
-	margin-left:-200px;
-}
-.caixa-logoTitulo {
-	display:flex;
-	flex-direction:row;
-}
-.titulo {
-	font-family:fantasy;
-	color: rgb(255, 255, 255);
-	font-size: clamp(0.65rem, 2.5vw, 0.9rem);
-	letter-spacing: 0.10em;
-	line-height: 1.8;
-}
-.logo {
-	margin-top:10px;
-	width:80px;
-	height:80px;
-	background-image:url("images/logo.svg");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.barraPesquisa {
-	margin-top:32px;
-	margin-right:128px;
-	border:2px solid grey;
-	border-radius:30px;
-	width:360px;
-	height:30px;
-	background-color:rgb(180, 128, 128);
-}
-.BarraInf {
-	display:flex;
-	flex-direction:row;
-	background-image:url("images/BarraInf.svg");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.botaoBarra {
-	margin-left:100px;
-	border:0;
-	background:red;
-	font-size:15px;
-}
-.botaoBarra {
-	cursor:pointer;
-    background-color: #fefff5;
-    background-image:
-        linear-gradient(#ff910011 1px, transparent 1px),
-        linear-gradient(90deg, #ff910011 1px, transparent 1px);
-    background-size: 15px 15px;
-}
+
 .listagem h2 {
     text-align: center;
     font-size: 32px;
