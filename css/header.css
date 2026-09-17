@@ -9,7 +9,7 @@
 .embaixo {
 	width: 100%;
 	height:4px;
-	background-image:url("../images/");
+	background-image:url("../images/embaixo.svg");
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
