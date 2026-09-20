@@ -1,3 +1,33 @@
+.filtro-tipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 20px;
+    background-color: #fff5e7;
+}
+
+.filtro-tipo {
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.filtro-tipo:hover {
+    border-color: #f63b3b;
+}
+
+.filtro-tipo.ativo {
+    background-color: #f63b3b;
+    border-color: #f63b3b;
+    color: white;
+}
+
 .listagem {
     padding: 40px 0;
     background-color: #fff5e7;

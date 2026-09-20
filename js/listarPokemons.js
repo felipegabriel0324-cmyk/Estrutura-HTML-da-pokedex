@@ -4,6 +4,9 @@ const pokemonGrid = document.querySelector(".pokemon-grid");
 pokemons.forEach(function(pokemon) {
     const card = document.createElement("div");
     card.classList.add("pokemon-card");
+    card.dataset.tipos = pokemon.types.map(function(tipo) {
+        return tipo.type.name;
+    }).join(" ");
 
     const topo = document.createElement("div");
     topo.classList.add("pokemon-topo");
